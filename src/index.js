@@ -60,8 +60,8 @@ function Product(props) {
     render() {
         
         return(
-            <div id="tableDiv">
-            <table id="myTable">
+            <div class="table-responsive" id="tableDiv">
+            <table class="table" id="myTable"> 
                 <thead>
                     <tr id="tableHeader">
                         <th>Model <data value="model" className="sorter" onClick={this.props.onSort}>▲▼</data></th>
