@@ -20,14 +20,19 @@
     color: green;
     font-size: 1.2rem;
     font-weight: bold;
+    max-width: 100%;
 }
 
 .productImage {
     max-height: 8rem;
+    display: flex;
 }
 
 .productImage > img {
     max-height: 8rem;
+    /* display: flex; */
+    /* flex: 1; */
+    max-width: 100%;
 }
 
 .product-row {
